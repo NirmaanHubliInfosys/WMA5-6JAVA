@@ -1,0 +1,12 @@
+package oops;
+
+public class Polymorphism {
+
+  public void method1() {
+	  System.out.println("method1");
+  }
+  public void method1(int number) {
+	  System.out.println("method1:"+number);
+  }
+	
+}

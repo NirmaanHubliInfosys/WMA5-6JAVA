@@ -1,0 +1,11 @@
+package oops;
+
+public class TestInheritance {
+public static void main(String[] args) {
+	Cat c=new Cat();  
+	c.cat();  
+	c.eat();  
+	//c.bark();//C.T.Error  
+	}
+
+}

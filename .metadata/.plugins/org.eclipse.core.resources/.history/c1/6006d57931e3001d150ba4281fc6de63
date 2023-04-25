@@ -1,0 +1,51 @@
+package oops;
+
+public class Parent1 {
+
+	private String name;
+	private int age;
+	private String branch;
+	private int fees;
+	
+	public  Parent1() {}
+	public Parent1(String name, int age, String branch, int fees) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.branch = branch;
+		this.fees = fees;
+	}
+//public String getName() {
+//		return name;
+//	}
+//	public void setName(String name) {
+//		this.name = name;
+//	}
+//	public int getAge() {
+//		return age;
+//	}
+//	public void setAge(int age) {
+//		this.age = age;
+//	}
+//	public String getBranch() {
+//		return branch;
+//	}
+//	public void setBranch(String branch) {
+//		this.branch = branch;
+//	}
+//	public int getFees() {
+//		return fees;
+//	}
+//	public void setFees(int fees) {
+//		this.fees = fees;
+//	}
+//	
+//@Override
+//	public String toString() {
+//		return "Parent1 [name=" + name + ", age=" + age + ", branch=" + branch + ", fees=" + fees + "]";
+//	}
+	void studentDisplay() {
+	   System.out.println("Student Details \n Student Name:"+name+"\n Student Age:"+age+"\nStudent Branch:"+branch+"\n Student Fees:"+fees);
+   }
+
+}

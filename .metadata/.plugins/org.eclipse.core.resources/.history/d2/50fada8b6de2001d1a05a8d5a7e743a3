@@ -1,0 +1,16 @@
+package oops;
+
+public class PolymorphismRunner {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Polymorphism1 polymorphism1=new Polymorphism1();
+		polymorphism1.method1(100);
+		
+		
+
+	}
+
+}

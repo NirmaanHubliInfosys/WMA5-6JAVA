@@ -1,0 +1,13 @@
+package oops;
+
+public class ParentChildRunner {
+
+	public static void main(String[] args) {
+		ChildCar ChildCar =new ChildCar();
+//		ChildCar.Parent();
+//		ChildCar.Land();
+		ChildCar.ChildCar();
+		
+	}
+
+}

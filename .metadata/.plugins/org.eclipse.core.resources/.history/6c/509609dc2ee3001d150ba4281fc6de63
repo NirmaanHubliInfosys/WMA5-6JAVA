@@ -1,0 +1,10 @@
+package oops;
+
+public class Inheritance {
+
+	private String name;
+	private int age;
+	
+	public class Inheritance() {}
+
+}

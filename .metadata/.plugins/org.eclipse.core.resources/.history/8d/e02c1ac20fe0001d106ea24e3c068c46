@@ -1,0 +1,17 @@
+package variable;
+
+	public class Test {
+		   public void pupAge() {
+			   int age1=2;
+		      int age=age1 + 7;
+		       
+		      System.out.println("Puppy age is : " + age);
+		   }
+
+		   public static void main(String args[]) {
+		      Test test = new Test();
+		      test.pupAge();
+		   }
+		}
+
+

@@ -1,0 +1,11 @@
+package variable;
+
+public class EmployeeRunner {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

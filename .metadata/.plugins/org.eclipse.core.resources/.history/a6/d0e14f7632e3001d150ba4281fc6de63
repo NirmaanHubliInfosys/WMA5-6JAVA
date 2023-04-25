@@ -1,0 +1,8 @@
+package oops;
+
+public class ParentFarmer {
+
+	void Parent() {
+		System.out.println("parent information");
+	}
+}

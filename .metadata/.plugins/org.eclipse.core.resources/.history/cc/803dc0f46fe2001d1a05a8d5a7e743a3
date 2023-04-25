@@ -1,0 +1,14 @@
+package oops;
+
+public class Child extends Parent{//child class
+
+	  void run()
+	  {
+		  System.out.println("Child is running safely");
+	  }
+	  
+	  public static void main(String args[]){  
+		  Parent obj = new Parent();//creating object  
+		  obj.run();//calling method  
+		  } 
+}

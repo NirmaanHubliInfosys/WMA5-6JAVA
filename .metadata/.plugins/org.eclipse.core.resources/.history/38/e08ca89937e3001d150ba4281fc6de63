@@ -1,0 +1,8 @@
+package oops;
+
+public class GrandParent {
+
+	void land() {
+	System.out.println("parent have own land...");
+}
+}

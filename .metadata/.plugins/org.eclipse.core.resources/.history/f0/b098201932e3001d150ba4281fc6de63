@@ -1,0 +1,18 @@
+package oops;
+
+public class ParentRunner1 {
+
+	public static void main(String[] args) {
+		
+		Student1 Student1=new Student1();
+		
+		Student1=new Student1("Rashmi",23,"cse",20000);
+		Student1 Student2=new Student1("kajol",25,"ece",24000);
+		
+		Student1.studentDisplay();
+		Student2.studentDisplay();
+		
+
+	}
+
+}

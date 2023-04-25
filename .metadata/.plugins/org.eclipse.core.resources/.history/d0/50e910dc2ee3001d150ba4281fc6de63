@@ -1,0 +1,10 @@
+package oops;
+
+public class Parent1 {
+
+	private String name;
+	private int age;
+	
+	public class Inheritance() {}
+
+}

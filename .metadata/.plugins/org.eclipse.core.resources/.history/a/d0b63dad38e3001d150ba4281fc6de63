@@ -1,0 +1,20 @@
+package oops;
+
+public class FamilyRunner extends Parent{
+
+	public static void main(String[] args) {
+		GrandParent GrandParent =new GrandParent();
+		GrandParent.land();
+//		GrandParent.education();//ERROR
+//		GrandParent.ownHouse();//ERROR
+//		GrandParent.ownCar();//ERROR
+		
+		Parent parent=new Parent();
+		parent.land();
+		parent.education();
+		parent.ownHouse();
+		parent.ownCar();//ERROR
+		
+	}
+
+}
