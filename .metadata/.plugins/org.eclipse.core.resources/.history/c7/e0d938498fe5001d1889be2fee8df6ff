@@ -1,0 +1,20 @@
+package array;
+
+public class Student1Object {
+
+	private String name;
+	private int registerNo;
+	public Student1Object(String name) {
+		super();
+		this.name = name;
+	}
+	public static void main(String[] args) {
+		Student1Object[] s=new Student1Object[5];
+		
+		s[0]=new Student1Object("ravi",20);
+		s[1]=new Student1Object("ravi",20);
+		
+		
+	}
+
+}

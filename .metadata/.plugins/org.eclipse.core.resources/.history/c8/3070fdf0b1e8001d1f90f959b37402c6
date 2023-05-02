@@ -1,0 +1,7 @@
+package Collection;
+
+
+public class Vector {
+
+	Vector<String>v=new Vector<String>();
+}

@@ -1,0 +1,13 @@
+package Collection;
+
+import java.util.Stack;
+
+public class ExampleStack {
+public static void main(String[] args) {
+	Stack<Double>s=new Stack<Double>();
+	s.push(10.2);
+	s.push(50.2);
+	s.push(null)
+	System.out.println(s);
+}
+}

@@ -1,0 +1,15 @@
+package typecasting;
+
+public class WideningTypeCasting {
+
+	public static void main(String[] args) {
+		 int x=6;
+		 long y=x;
+		 float z=y;
+		 
+		 System.out.println("before conversion,int value"+x);
+		 System.out.println("after conversion,long value"+x);
+		 System.out.println("after conversion,float value"+x);
+	}
+
+}

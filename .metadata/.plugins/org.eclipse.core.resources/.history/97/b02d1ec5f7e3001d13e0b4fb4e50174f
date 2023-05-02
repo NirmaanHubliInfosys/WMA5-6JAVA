@@ -1,0 +1,13 @@
+package typecasting;
+
+public class NarrowingTypeCating {
+
+	public static void main(String[] args) {
+	double d=176.88;
+	long l=(long)d;
+	int i=(int)d;
+
+	System.out.println("before conversion:"+d);
+	}
+
+}
